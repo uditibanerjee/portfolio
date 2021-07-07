@@ -1,0 +1,35 @@
+
+           h1{
+               color:#afb234;
+              padding-bottom:20px;
+           }
+           
+      .heading{
+          background-color: crimson;
+         display: flex;
+
+    }
+      .game{
+          background-color: darkmagenta;
+          display: flex;
+         position: relative;
+      }
+      .pages{
+        background-color: chartreuse;
+          display: flex;
+          
+          justify-content: space-evenly;  
+      }
+      a:link{
+         color: aquamarine;    
+      }
+      a:visited{
+         color: cornflowerblue;
+      }
+      .game:hover a {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          opacity: 0.2 ;
+      }
+      
